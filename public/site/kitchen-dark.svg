@@ -1,0 +1,72 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="980" fill="#0D0B0A"/>
+  <rect x="0" y="0" width="1600" height="980" fill="url(#bg)"/>
+  <rect x="0" y="720" width="1600" height="260" fill="url(#floor)"/>
+  <rect x="875" y="98" width="560" height="530" rx="18" fill="#1B1613"/>
+  <rect x="915" y="132" width="124" height="458" rx="12" fill="#14110F"/>
+  <rect x="1059" y="132" width="130" height="458" rx="12" fill="#14110F"/>
+  <rect x="1208" y="132" width="190" height="458" rx="12" fill="#14110F"/>
+  <rect x="1110" y="238" width="260" height="18" rx="9" fill="#E1C189" fill-opacity="0.85"/>
+  <rect x="1110" y="274" width="260" height="146" rx="8" fill="#0E0C0B"/>
+  <path d="M946 478H1398V492H946V478Z" fill="#A47A43"/>
+  <rect x="418" y="412" width="836" height="268" rx="18" fill="url(#island)"/>
+  <path d="M476 452C476 437.641 487.641 426 502 426H1169C1183.36 426 1195 437.641 1195 452V490H476V452Z" fill="#F6E7D0"/>
+  <path d="M430 694H1242L1172 972H512L430 694Z" fill="#D8C5AE"/>
+  <path d="M622 694H1020V972H622V694Z" fill="#13100E"/>
+  <path d="M804 483C804 451.52 829.52 426 861 426V426C892.48 426 918 451.52 918 483V602H897V483C897 463.118 880.882 447 861 447V447C841.118 447 825 463.118 825 483V532H804V483Z" fill="#C59D5C"/>
+  <rect x="604" y="692" width="82" height="198" rx="22" fill="#2B2521"/>
+  <rect x="604" y="652" width="82" height="56" rx="28" fill="#C7B39C"/>
+  <rect x="604" y="890" width="82" height="16" rx="8" fill="#A47A43"/>
+  <rect x="732" y="692" width="82" height="198" rx="22" fill="#2B2521"/>
+  <rect x="732" y="652" width="82" height="56" rx="28" fill="#C7B39C"/>
+  <rect x="860" y="692" width="82" height="198" rx="22" fill="#2B2521"/>
+  <rect x="860" y="652" width="82" height="56" rx="28" fill="#C7B39C"/>
+  <rect x="988" y="692" width="82" height="198" rx="22" fill="#2B2521"/>
+  <rect x="988" y="652" width="82" height="56" rx="28" fill="#C7B39C"/>
+  <rect x="1400" y="84" width="160" height="718" rx="16" fill="#161210"/>
+  <rect x="1430" y="120" width="100" height="644" rx="10" fill="#0F0C0A"/>
+  <rect x="1450" y="146" width="60" height="6" rx="3" fill="#D9B46A"/>
+  <rect x="1450" y="250" width="60" height="6" rx="3" fill="#D9B46A"/>
+  <rect x="1450" y="354" width="60" height="6" rx="3" fill="#D9B46A"/>
+  <rect x="1450" y="458" width="60" height="6" rx="3" fill="#D9B46A"/>
+  <rect x="1450" y="562" width="60" height="6" rx="3" fill="#D9B46A"/>
+  <rect x="1450" y="666" width="60" height="6" rx="3" fill="#D9B46A"/>
+  <circle cx="775" cy="246" r="48" fill="url(#pendantGlow)" fill-opacity="0.32"/>
+  <circle cx="775" cy="210" r="34" fill="#695844"/>
+  <circle cx="775" cy="210" r="30" fill="url(#glass)"/>
+  <rect x="771" y="162" width="8" height="44" rx="4" fill="#A47A43"/>
+  <circle cx="942" cy="246" r="48" fill="url(#pendantGlow)" fill-opacity="0.32"/>
+  <circle cx="942" cy="210" r="34" fill="#695844"/>
+  <circle cx="942" cy="210" r="30" fill="url(#glass)"/>
+  <rect x="938" y="162" width="8" height="44" rx="4" fill="#A47A43"/>
+  <circle cx="1108" cy="246" r="48" fill="url(#pendantGlow)" fill-opacity="0.32"/>
+  <circle cx="1108" cy="210" r="34" fill="#695844"/>
+  <circle cx="1108" cy="210" r="30" fill="url(#glass)"/>
+  <rect x="1104" y="162" width="8" height="44" rx="4" fill="#A47A43"/>
+  <rect x="575" y="116" width="150" height="400" rx="16" fill="#1A1512"/>
+  <rect x="592" y="134" width="116" height="362" rx="8" fill="#120F0D"/>
+  <rect x="622" y="258" width="56" height="108" rx="4" fill="#050505"/>
+  <rect x="622" y="378" width="56" height="94" rx="4" fill="#050505"/>
+  <defs>
+    <linearGradient id="bg" x1="800" y1="0" x2="800" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#211916"/>
+      <stop offset="1" stop-color="#090807"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="800" y1="720" x2="800" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#766554"/>
+      <stop offset="1" stop-color="#2A221D"/>
+    </linearGradient>
+    <linearGradient id="island" x1="836" y1="412" x2="836" y2="972" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3E5D1"/>
+      <stop offset="1" stop-color="#C7B39D"/>
+    </linearGradient>
+    <radialGradient id="pendantGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(90) scale(1)">
+      <stop stop-color="#E9C98D"/>
+      <stop offset="1" stop-color="#E9C98D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="775" y1="180" x2="775" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E5B967" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#584026" stop-opacity="0.22"/>
+    </linearGradient>
+  </defs>
+</svg>

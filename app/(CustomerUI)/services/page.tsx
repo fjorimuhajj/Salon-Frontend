@@ -1,36 +1,18 @@
-import Services from "@/components/PagesComponents/Services/ServicesList";
-import PageHeader from "@/components/ui/PageBanner/PageHeader";
-import { Metadata } from "next";
+import { HeroSplit, ProcessStrip, ServicesGrid } from "@/components/site/SiteSections";
 
-// Meta Data
-export const metadata: Metadata = {
-	title: "Beauty Care Services",
-	description:
-		"Explore our wide range of beauty care products for a radiant and confident you.",
-	keywords: [
-		"beauty products",
-		"skincare products",
-		"cosmetics",
-		"product categories",
-		"beauty essentials",
-	],
-};
-
-const page = () => {
+export default function ServicesPage() {
 	return (
-		<div className="px-6">
-			{/* Page Header */}
-			<div className="mb-20">
-				<PageHeader
-					page_title="All services page"
-					page_description="Check our all latest service"
-					bg_image=""
-				/>
-			</div>
-			<Services />
-		</div>
+		<>
+			<HeroSplit
+				eyebrow="Our services"
+				title="Complete Solutions."
+				accent="Tailored for You."
+				description="From inspired design to flawless execution, we provide end-to-end services to transform your home with quality, precision and timeless style."
+				primaryCta={{ href: "/book-consultation", label: "Book a Consultation" }}
+				image="/site/kitchen-dark.svg"
+			/>
+			<ServicesGrid />
+			<ProcessStrip />
+		</>
 	);
-};
-
-export default page;
-
+}

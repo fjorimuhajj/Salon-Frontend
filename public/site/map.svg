@@ -1,0 +1,18 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#F4EFE7"/>
+  <path d="M0 112H1200" stroke="#DDD2C4" stroke-width="8"/>
+  <path d="M0 264H1200" stroke="#DDD2C4" stroke-width="8"/>
+  <path d="M0 418H1200" stroke="#DDD2C4" stroke-width="8"/>
+  <path d="M0 590H1200" stroke="#DDD2C4" stroke-width="8"/>
+  <path d="M146 0V760" stroke="#DDD2C4" stroke-width="8"/>
+  <path d="M374 0V760" stroke="#DDD2C4" stroke-width="8"/>
+  <path d="M618 0V760" stroke="#DDD2C4" stroke-width="8"/>
+  <path d="M860 0V760" stroke="#DDD2C4" stroke-width="8"/>
+  <path d="M1048 0V760" stroke="#DDD2C4" stroke-width="8"/>
+  <path d="M0 186L1200 704" stroke="#E6DCCD" stroke-width="6"/>
+  <path d="M1200 126L0 684" stroke="#E6DCCD" stroke-width="6"/>
+  <circle cx="646" cy="382" r="42" fill="#101010"/>
+  <path d="M646 270C595.742 270 555 310.742 555 361C555 431.4 646 508 646 508C646 508 737 431.4 737 361C737 310.742 696.258 270 646 270Z" fill="#C59D5C"/>
+  <rect x="618" y="334" width="56" height="56" rx="8" fill="#101010"/>
+  <path d="M626 346H666V378H626V346Z" fill="#C59D5C"/>
+</svg>

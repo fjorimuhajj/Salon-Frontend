@@ -2,39 +2,111 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.react-datepicker-wrapper{
-    display: block !important;
+:root {
+	--site-bg: #f6f1ea;
+	--site-surface: #fffdfa;
+	--site-ink: #2f261f;
+	--site-muted: #74695f;
+	--site-line: rgba(186, 122, 77, 0.24);
+	--site-gold: #ba7a4d;
+	--site-gold-strong: #cb8c5e;
+	--site-dark: #181311;
 }
 
-.react-datepicker__triangle{
-    display:none !important;
+html {
+	scroll-behavior: smooth;
 }
 
-/* top default */
-.tooltip {
-    position: relative;
-}
-.tooltip .top_default {
-    min-width: 10px;
-    bottom: -8px;
-    left: 50%;
-    transform: translate(-50%, 100%);
-    padding: 8px 8px;
-    color: #fff;
-    background-color: #34d399;
-    font-weight: normal;
-    font-size: 13px;
-    border-radius: 8px;
-    position: absolute;
-    z-index: 99999;
-    box-sizing: border-box;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.174);
-    display: none;
-    text-align: left;
+body {
+	margin: 0;
+	background:
+		radial-gradient(circle at top left, rgba(186, 122, 77, 0.1), transparent 28%),
+		linear-gradient(180deg, #fcf8f3 0%, var(--site-bg) 100%);
+	color: var(--site-ink);
 }
 
+a {
+	color: inherit;
+	text-decoration: none;
+}
 
-.tooltip:hover .top_default {
-    display: block;
+* {
+	box-sizing: border-box;
+}
+
+::selection {
+	background: rgba(186, 122, 77, 0.24);
+}
+
+.react-datepicker-wrapper {
+	display: block !important;
+}
+
+.react-datepicker__triangle {
+	display: none !important;
+}
+
+@layer components {
+	.site-shell {
+		@apply mx-auto w-full max-w-[1520px] px-4 sm:px-6 lg:px-8;
+	}
+
+	.site-shell-wide {
+		@apply w-full px-0;
+	}
+
+	.site-panel {
+		@apply rounded-[28px] border border-[color:var(--site-line)] bg-[color:var(--site-surface)] shadow-[0_22px_80px_rgba(12,10,9,0.08)];
+	}
+
+	.site-button-primary {
+		@apply inline-flex items-center justify-center gap-3 border border-[color:var(--site-gold)] bg-[color:var(--site-gold)] px-6 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-[color:var(--site-dark)] transition duration-300 hover:bg-[color:var(--site-gold-strong)];
+	}
+
+	.site-button-secondary {
+		@apply inline-flex items-center justify-center gap-3 border border-[color:rgba(255,255,255,0.42)] bg-transparent px-6 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-white transition duration-300 hover:border-[color:var(--site-gold)] hover:text-[color:var(--site-gold)];
+	}
+
+	.site-eyebrow {
+		@apply text-sm font-semibold uppercase tracking-[0.24em] text-[color:var(--site-gold)];
+	}
+
+	.site-title {
+		@apply font-spacial text-[2.9rem] leading-[0.95] text-[color:var(--site-ink)] sm:text-[4rem] lg:text-[5rem];
+	}
+
+	.site-title-light {
+		@apply font-spacial text-[2.9rem] leading-[0.95] text-white sm:text-[4rem] lg:text-[5rem];
+	}
+
+	.site-copy {
+		@apply text-base leading-8 text-[color:var(--site-muted)] md:text-lg;
+	}
+
+	.site-dark-marble {
+		background:
+			linear-gradient(90deg, rgba(24, 19, 17, 0.96) 0%, rgba(24, 19, 17, 0.88) 43%, rgba(24, 19, 17, 0.2) 100%),
+			radial-gradient(circle at 15% 25%, rgba(186, 122, 77, 0.1), transparent 22%),
+			radial-gradient(circle at 80% 80%, rgba(186, 122, 77, 0.08), transparent 18%),
+			linear-gradient(135deg, #171311 0%, #0c0908 100%);
+	}
+
+	.site-dark-strip {
+		background:
+			radial-gradient(circle at top left, rgba(186, 122, 77, 0.08), transparent 25%),
+			linear-gradient(135deg, #171311 0%, #0d0a09 100%);
+	}
+
+	.site-cream {
+		background:
+			radial-gradient(circle at top right, rgba(186, 122, 77, 0.11), transparent 24%),
+			linear-gradient(180deg, #fffdf9 0%, #f4ede3 100%);
+	}
+
+	.site-grid-line {
+		background-image:
+			linear-gradient(to right, rgba(193, 157, 92, 0.12) 1px, transparent 1px),
+			linear-gradient(to bottom, rgba(193, 157, 92, 0.12) 1px, transparent 1px);
+		background-size: 22px 22px;
+	}
 }

@@ -1,38 +1,18 @@
-import Blogs from "@/components/PagesComponents/Blog/BlogsList";
-import Services from "@/components/PagesComponents/Services/ServicesList";
-import PageHeader from "@/components/ui/PageBanner/PageHeader";
-import { Metadata } from "next";
+import { BlogGrid, FeatureStrip, HeroSplit } from "@/components/site/SiteSections";
 
-// Meta Data
-export const metadata: Metadata = {
-	title: "Beauty Care Blogs",
-	description:
-		"Read our latest blog posts for expert beauty tips, skincare advice, and product reviews.",
-	keywords: [
-		"beauty blog",
-		"skincare tips",
-		"product reviews",
-		"beauty advice",
-		"cosmetics",
-	],
-};
-
-//
-const page = () => {
+export default function BlogsPage() {
 	return (
-		<div className="px-6">
-			{/* Page Header */}
-			<div className="mb-20">
-				<PageHeader
-					page_title="All blogs  page"
-					page_description="Check our all latest blogs "
-					bg_image=""
-				/>
-			</div>
-			<Blogs />
-		</div>
+		<>
+			<HeroSplit
+				eyebrow="Our blog"
+				title="Ideas. Inspiration."
+				accent="Expertise."
+				description="Tips, trends and timeless advice to help you create beautiful, functional spaces you'll love for years to come."
+				primaryCta={{ href: "/book-consultation", label: "Book a consultation" }}
+				image="/site/kitchen-dark.svg"
+			/>
+			<BlogGrid />
+			<FeatureStrip />
+		</>
 	);
-};
-
-export default page;
-
+}
